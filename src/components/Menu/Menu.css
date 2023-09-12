@@ -1,0 +1,45 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 20px 20px;
+    color: black;
+  }
+  
+  .logo img {
+    max-width: 150px; 
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-item {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    transition: color 0.3s;
+  }
+  
+  .menu-item:hover {
+    color: orange;
+  }
+  
+  .fale-conosco-button {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .fale-conosco-button:hover {
+    background-color: #45a049;
+  }
+  
