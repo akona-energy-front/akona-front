@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "../../components/Menu/Menu";
+import Footer from "../../components/Footer/Footer";
 import Sobreimg from "../../assets/Sobreimg.svg";
 import "./style.css";
 
@@ -8,7 +9,7 @@ export default function Sobre() {
     <>
       <Menu />
       <div className="container">
-        <div className="card">
+        <div className="infoCard">
           <h1>Sobre Nós</h1>
           <p>
             Somos líderes na transformação do cenário energético, focando em
@@ -20,12 +21,13 @@ export default function Sobre() {
             técnica, resultados palpáveis e parcerias estratégicas. Junte-se a
             nós para um futuro energético responsável.
           </p>
-          <a href="#" class="button">
-            Fale Conosco <span class="arrow"></span>
-          </a>
+          <button className="btn" aria-label="Fale Conosco">
+            Fale Conosco <span className="arrow"></span>
+          </button>
         </div>
-        <img src={Sobreimg} alt="Imagem" class="image"></img>
+        <img src={Sobreimg} alt="Imagem descritiva do negócio" className="image"></img>
       </div>
+      <Footer />
     </>
   );
 }
