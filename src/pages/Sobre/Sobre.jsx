@@ -5,6 +5,12 @@ import Sobreimg from "../../assets/Sobreimg.svg";
 import "./style.css";
 
 export default function Sobre() {
+  const handleContactClick = () => {
+    // Adicione sua lógica aqui, por exemplo, redirecionar para uma página de contato
+    // ou abrir um modal de contato
+    console.log("Botão Fale Conosco clicado.");
+  };
+
   return (
     <>
       <Menu />
@@ -21,11 +27,21 @@ export default function Sobre() {
             técnica, resultados palpáveis e parcerias estratégicas. Junte-se a
             nós para um futuro energético responsável.
           </p>
-          <button className="btn" aria-label="Fale Conosco">
-            Fale Conosco <span className="arrow"></span>
+          <button
+            className="btn"
+            aria-label="Fale Conosco"
+            onClick={handleContactClick}
+          >
+            Fale Conosco <span className="arrow">➔</span>
           </button>
         </div>
-        <img src={Sobreimg} alt="Imagem descritiva do negócio" className="image"></img>
+        <div className="imageWrapper">
+          <img
+            src={Sobreimg}
+            alt="Imagem descritiva do negócio"
+            className="image"
+          ></img>
+        </div>
       </div>
       <Footer />
     </>
