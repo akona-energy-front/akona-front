@@ -2,11 +2,12 @@ import React from 'react';
 import Menu from '../../components/Menu/Menu';
 import './Home.css';
 import Image from "../../assets/main.svg";
-
+import Footer from '../../components/Footer/Footer';
 export default function Home() {
     return (
         <>
         <Menu/>
+
         <section className="main">
         <div className="main-text">
           <div className="svg-container">
@@ -38,6 +39,9 @@ export default function Home() {
           <img src={Image} alt="" />
         </div>
       </section>
+
+        <Footer/>
+
         </>
     );
 }
