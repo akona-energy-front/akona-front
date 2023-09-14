@@ -46,6 +46,7 @@
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: 'Red hat text';
   }
   
   .fale-conosco-button:hover {
@@ -57,8 +58,8 @@
   }
 
   .svg-container {
-    float: left; /* Isso fará com que o elemento fique à esquerda do h4 */
-    margin-right: 10px; /* Ajuste a margem conforme necessário para o espaçamento desejado */
+    float: left; 
+    margin-right: 10px; 
   }
 
   .main {
@@ -93,9 +94,12 @@
   .main-text p {
     color: #1C242C;
     font-family: Red Hat Text;
-    font-size: 15px;
-   line-height: 1.9;
-   margin-bottom: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 15px;
   }
 
   .main-text a {
@@ -105,7 +109,6 @@
     line-height: 1.4;
     font-size: 14px;
     font-weight: 500;
-    border-radius: 10px;
     text-transform: uppercase;
     transition: all .55s ease;
     margin-right: 20px;
