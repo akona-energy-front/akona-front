@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
 .menu {
     display: flex;
     align-items: center;
@@ -30,16 +39,95 @@
   }
   
   .fale-conosco-button {
-    background-color: #4CAF50;
+    background-color: #81B214;
     color: white;
-    border: 1px solid #4CAF50;
+    border: 1px solid #81B214;
     border-radius: 10px;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: 'Red hat text';
   }
   
   .fale-conosco-button:hover {
     background-color: #45a049;
   }
+
+  section {
+    padding: 0 15%;
+  }
+
+  .svg-container {
+    float: left; 
+    margin-right: 10px; 
+  }
+
+  .main {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .main-text h4 {
+    color: #54B43C;
+    font-family: Red Hat Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .main-text h1 {
+    color: #1C242C;
+    font-family: Red Hat Text;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .main-text p {
+    color: #1C242C;
+    font-family: Red Hat Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .main-text a {
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    margin-right: 20px;
+  }
+
+  .main-text .btn1 {
+    border-radius: 14px;
+    background: #81B214;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  }
+
+  .main-text .btn2 {
+    border-radius: 14px;
+    background: #E86A33;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+
+
+
   
