@@ -14,7 +14,7 @@ export default function Menu() {
       </Link>
     </li>
     <li>
-      <Link to="/" className="menu-item">
+      <Link to="/vantagens" className="menu-item">
         Vantagens
       </Link>
     </li>
