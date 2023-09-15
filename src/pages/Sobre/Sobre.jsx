@@ -6,8 +6,7 @@ import "./style.css";
 
 export default function Sobre() {
   const handleContactClick = () => {
-    // Adicione sua lógica aqui, por exemplo, redirecionar para uma página de contato
-    // ou abrir um modal de contato
+    // Adicionar lógica aqui, por exemplo, redirecionar para uma página de contato
     console.log("Botão Fale Conosco clicado.");
   };
 

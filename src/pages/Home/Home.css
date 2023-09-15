@@ -234,7 +234,7 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 15px;
+  gap: 1px;
 }
 
 .small-square h5 {
