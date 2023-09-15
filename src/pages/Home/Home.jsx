@@ -8,6 +8,10 @@ import Thirdimg from "../../assets/Thirdimg.svg";
 import vant from "../../assets/vant.svg";
 import icon from "../../assets/icon1.svg";
 import icon2 from "../../assets/icon2.svg";
+import icon3 from "../../assets/icon3.svg";
+import icon4 from "../../assets/icon4.svg";
+import icon5 from "../../assets/icon5.svg";
+import icon6 from "../../assets/icon6.svg";
 
 export default function Home() {
   return (
@@ -66,14 +70,7 @@ export default function Home() {
         <div className="sec-text">
           <h1>Eficiência Energética</h1>
           <p>
-            Eficiência energética refere-se à otimização do uso de energia para
-            realizar uma determinada tarefa ou atividade, minimizando o
-            desperdício. Sendo crucial para empresas pois reduz os custos
-            operacionais, melhora a competitividade, diminui a pegada de
-            carbono, atende a regulamentações ambientais e fortalece a imagem
-            corporativa, demonstrando responsabilidade social e ambiental. A
-            eficiência energética é um investimento inteligente que gera
-            benefícios financeiros e sustentáveis a longo prazo.
+          Eficiência energética otimiza o uso de energia, reduz custos operacionais e emissões de carbono, melhorando a competitividade e atendendo a regulamentações ambientais. Também fortalece a imagem corporativa, demonstrando responsabilidade social e ambiental. Este investimento inteligente gera benefícios financeiros e sustentáveis a longo prazo para as empresas.
           </p>
         </div>
         <div className="sec-image">
@@ -106,15 +103,31 @@ export default function Home() {
           </div>
 
           <div className="big-square">
-            <div className="small-square"></div>
+            <div className="small-square">
+              <img src={icon3} alt="" />
+              <h5>Redução de Custo</h5>
+            </div>
           </div>
 
           <div className="big-square">
-            <div className="small-square"></div>
+            <div className="small-square">
+            <img src={icon4} alt="" />
+              <h5>Confiabilidade</h5>
+            </div>
           </div>
 
           <div className="big-square">
-            <div className="small-square"></div>
+            <div className="small-square">
+            <img src={icon5} alt="" />
+              <h5>Descentralização</h5>
+            </div>
+          </div>
+
+          <div className="big-square">
+            <div className="small-square">
+            <img src={icon6} alt="" />
+              <h5>Segurança</h5>
+            </div>
           </div>
         </div>
       </section>

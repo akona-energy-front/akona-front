@@ -79,7 +79,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 12rem;
+  gap: 2rem;
 }
 
 .main-text h4 {
@@ -150,31 +150,33 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 9rem;
+    gap: 2rem;
 }
 
 .sec-image img {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    width: 400px;
 }
 
 .sec-text h1 {
-    color: #1C242C;
-    text-align: center;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #1C242C;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .sec-text p {
-    color: #1C242C;
-    text-align: center;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #1C242C;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 600px;
 }
 
 
@@ -209,7 +211,6 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px; 
-  margin-left: 100px;
 }
 
 .big-square{
