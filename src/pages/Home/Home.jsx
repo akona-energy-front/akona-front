@@ -1,3 +1,4 @@
+import React from "react";
 import Menu from "../../components/Menu/Menu";
 import "./Home.css";
 import Image from "../../assets/main.svg";
