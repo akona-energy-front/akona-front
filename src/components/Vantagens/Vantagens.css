@@ -1,14 +1,32 @@
+body {
+  background-color: #fff;
+}
 
-  .third-text h1 {
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+  text-align: center; 
+}
+
+
+  .text-center h1 {
+    width: 361px;
+    height: 76px;
+    flex-shrink: 0;
     color: #1C242C;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-align: center;
   }
   
-  .third-text p {
+  .text-center p {
+    width: 643px;
+    height: 118px;
+    flex-shrink: 0;
     color: #1C242C;
     text-align: center;
     font-size: 20px;
@@ -19,6 +37,13 @@
   
   .third-section {
     background-color: #fff;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; 
   }
   
   
@@ -29,7 +54,9 @@
   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px; 
+    gap: 45px; 
+    
+    margin-left: 150px;
   }
   
   .big-square{
@@ -40,6 +67,7 @@
     height: 287px;
     flex-shrink: 0;
     padding: 30px 25px;
+    transition: all ease 0.8s;
   }
   
   .small-square {
@@ -64,4 +92,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  .big-square:hover {
+    scale: 1.1;
   }

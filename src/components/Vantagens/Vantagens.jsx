@@ -9,7 +9,7 @@ import icon6 from "../../assets/icon6.svg";
 export default function Vantagens () {
     return(
         <section className="third-section">
-        <div className="third-text">
+        <div className="text-center">
           <h1>Vantagens</h1>
           <p>
             Variedade de produtos para atender às suas necessidades. Visite-nos
