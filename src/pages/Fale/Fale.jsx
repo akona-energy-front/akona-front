@@ -25,7 +25,7 @@ export default function Fale() {
             return;
         }
     
-        const phonePattern = /^[0-9]{10,14}$/; // Permite números de telefone entre 10 a 14 dígitos.
+        const phonePattern = /^[0-9]{10,14}$/; 
         if (!phonePattern.test(formData.telefone)) {
             alert("Por favor, insira um número de telefone válido.");
             return;

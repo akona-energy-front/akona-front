@@ -2,12 +2,13 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/Logo.svg";
 
 export default function Menu() {
+
   return (
     <div className="menu">
   <div className="logo">
     <img src={Logo} alt="Logo" />
   </div>
-  <ul className="menu-list">
+  <ul className= "menu-list" >
     <li>
       <Link to="/home" className="menu-item">
         Home
