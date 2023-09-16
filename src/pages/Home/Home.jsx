@@ -59,14 +59,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="sec-section">
-        <div className="sec-text">
+      <section className="terceira-section">
+        <div className="terceiro-text">
           <h1>Eficiência Energética</h1>
           <p>
           Eficiência energética otimiza o uso de energia, reduz custos operacionais e emissões de carbono, melhorando a competitividade e atendendo a regulamentações ambientais. Também fortalece a imagem corporativa, demonstrando responsabilidade social e ambiental. Este investimento inteligente gera benefícios financeiros e sustentáveis a longo prazo para as empresas.
           </p>
         </div>
-        <div className="sec-image">
+        <div className="terceira-image">
           <img src={Thirdimg} alt="" />
         </div>
       </section>

@@ -17,6 +17,7 @@ body {
   background-color: #fff;
   padding: 20px 20px;
   color: #1c242c;
+  font-weight: bold;
 }
 
 .logo img {
@@ -79,7 +80,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 2rem;
+  gap: 9rem;
 }
 
 .main-text h4 {
@@ -96,6 +97,8 @@ section {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0; 
+  text-align: left;
 }
 
 .main-text p {
@@ -150,14 +153,14 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 2rem;
+    
 }
 
 .sec-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    width: 400px;
+  width: 491px;
+  height: 328px;
+  flex-shrink: 0;
+  border-radius: 20px;
 }
 
 .sec-text h1 {
@@ -170,13 +173,53 @@ section {
 }
 
 .sec-text p {
+  width: 647px;
+  height: 182px;
+  flex-shrink: 0;
   color: #1C242C;
   text-align: center;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 600px;
+}
+
+.terceira-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 4rem;
+}
+
+.terceiro-text h1 {
+  width: 622px;
+  height: 83px;
+  flex-shrink: 0;
+  color: #1C242C;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.terceiro-text p {
+  width: 623px;
+  height: 195px;
+  flex-shrink: 0;
+  color: #1C242C;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.terceira-image img {
+  width: 566px;
+  height: 337px;
+  flex-shrink: 0;
+  border-radius: 15px;
 }
 
 
