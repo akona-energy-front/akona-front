@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-body {
+div {
   background-color: #ecf4ec;
 }
 
@@ -22,6 +22,7 @@ body {
 
 .logo img {
   max-width: 150px;
+  background-color: #fff;
 }
 
 .menu-list {
@@ -67,11 +68,6 @@ section {
   margin-bottom: 100px;
 }
 
-.svg-container {
-  float: left;
-  margin-right: 10px;
-}
-
 .main {
   height: 100%;
   width: 100%;
@@ -81,6 +77,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 9rem;
+  background-color: #ecf4ec;
 }
 
 .main-text h4 {
@@ -97,7 +94,7 @@ section {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 0; 
+  margin: 0;
   text-align: left;
 }
 
@@ -148,12 +145,17 @@ section {
   scale: 1.2;
   background: #e86a33;
 }
+.svg-container {
+  float: left;
+  margin-right: 10px;
+}
 
 .sec-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 0 10px;
+  background-color: #ecf4ec;
 }
 
 .sec-image img {
@@ -164,7 +166,7 @@ section {
 }
 
 .sec-text h1 {
-  color: #1C242C;
+  color: #1c242c;
   text-align: center;
   font-size: 48px;
   font-style: normal;
@@ -176,7 +178,7 @@ section {
   width: 647px;
   height: 182px;
   flex-shrink: 0;
-  color: #1C242C;
+  color: #1c242c;
   text-align: center;
   font-size: 20px;
   font-style: normal;
@@ -185,17 +187,19 @@ section {
 }
 
 .terceira-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 6rem;
+  margin: 100px 1px;
+  background-color: #ECF4EC;
 }
 
 .terceiro-text h1 {
   width: 622px;
   height: 83px;
   flex-shrink: 0;
-  color: #1C242C;
+  color: #1c242c;
   text-align: center;
   font-size: 48px;
   font-style: normal;
@@ -207,7 +211,7 @@ section {
   width: 623px;
   height: 195px;
   flex-shrink: 0;
-  color: #1C242C;
+  color: #1c242c;
   text-align: center;
   font-size: 20px;
   font-style: normal;
@@ -222,9 +226,8 @@ section {
   border-radius: 15px;
 }
 
-
 .third-text h1 {
-  color: #1C242C;
+  color: #1c242c;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -233,18 +236,13 @@ section {
 }
 
 .third-text p {
-  color: #1C242C;
+  color: #1c242c;
   text-align: center;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
-.third-section {
-  background-color: #fff;
-}
-
 
 .third-content {
   width: 100%;
@@ -253,13 +251,13 @@ section {
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px; 
+  gap: 25px;
 }
 
-.big-square{
-  border-radius: 20px;
-  border: 1px solid #1C242C;
-  background: #FFF;
+.big-square {
+  border-radius: 19px;
+  border: 1px solid #1c242c;
+  background: #fff;
   width: 257px;
   height: 287px;
   flex-shrink: 0;
@@ -268,8 +266,8 @@ section {
 
 .small-square {
   border-radius: 20px;
-  border: 1px solid #1C242C;
-  background: #FFF;
+  border: 1px solid #1c242c;
+  background: #fff;
   width: 201px;
   height: 207px;
   flex-shrink: 0;
@@ -281,7 +279,7 @@ section {
   gap: 1px;
 }
 .small-square h5 {
-  color: #54B43C;
+  color: #54b43c;
   text-align: center;
   font-size: 20px;
   font-style: normal;
