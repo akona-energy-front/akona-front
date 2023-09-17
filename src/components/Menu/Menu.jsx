@@ -29,6 +29,11 @@ export default function Menu() {
         Sobre Nós
       </Link>
     </li>
+    <li>
+      <Link to="/ogin" className="menu-item">
+        Login
+      </Link>
+    </li>
   </ul>
   <Link to="/fale" className="fale-conosco-button">
     Fale Conosco

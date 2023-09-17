@@ -3,8 +3,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  font-family: "Roboto", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 
 .loginBox {
