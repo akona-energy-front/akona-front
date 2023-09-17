@@ -49,3 +49,7 @@ button {
 button:hover {
     background-color: #00816a; /* Verde um pouco mais escuro para hover */
 }
+
+.text-square {
+    max-width: 100%;
+}

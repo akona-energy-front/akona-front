@@ -98,6 +98,7 @@ export default function Fale() {
                         />
                     </div>
                     <textarea 
+                        className='text-square'
                         name="descricao"
                         placeholder="Descreva seu projeto aqui..."
                         value={formData.descricao}
