@@ -1,0 +1,64 @@
+.about-section {
+  min-height: 100vh; /* Isso garante que a seção ocupe pelo menos a altura da janela de visualização. */
+  padding: 0 15%;
+  margin-bottom: 100px;
+  background-color: #ECF4EC;
+  display: flex; /* Adicione isso para garantir que a seção ocupe toda a altura do conteúdo. */
+  flex-direction: column; /* Certifique-se de que os elementos filhos sejam empilhados verticalmente. */
+  align-items: center; /
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Espaçamento entre o texto e o vídeo */
+}
+
+.about-text {
+  margin-top: 100px;
+  flex: 1; /* Ocupa o espaço restante disponível no contêiner */
+}
+
+.about-video {
+  margin-top: 100px;
+  flex: 1; /* Ocupa o espaço restante disponível no contêiner */
+}
+
+
+.about-svg {
+  float: left;
+  margin-right: 10px;
+}
+
+.about-text h4 {
+  color: #54b43c;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-text h1 {
+  color: #1c242c;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0; 
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+
+.about-info p {
+  color: #1C242C;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+
+
