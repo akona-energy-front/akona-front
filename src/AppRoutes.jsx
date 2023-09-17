@@ -13,7 +13,7 @@ const AppRoutes = () => {
       return (
     
         <Routes location={location} key={location.pathname}>
-            <Route path="/home" element={<Home />} /> 
+            <Route path="/" element={<Home />} /> 
             <Route path="/vantagens" element={<Vantagensp />} />
             <Route path="/servicos" element={<Servicos />} />
             <Route path="/sobre" element={<Sobre />} />
