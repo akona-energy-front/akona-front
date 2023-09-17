@@ -1,14 +1,15 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import Menu from "../../components/Menu/Menu";
 import Footer from "../../components/Footer/Footer";
 import Sobreimg from "../../assets/Sobreimg.svg";
 import "./style.css";
 
 export default function Sobre() {
+  const navigate = useNavigate();
+
   const handleContactClick = () => {
-    // Adicione sua lógica aqui, por exemplo, redirecionar para uma página de contato
-    // ou abrir um modal de contato
-    console.log("Botão Fale Conosco clicado.");
+      navigate("/fale");
+      console.log("Botão Fale Conosco clicado.");
   };
 
   return (

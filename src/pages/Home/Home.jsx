@@ -5,10 +5,6 @@ import Image from "../../assets/main.svg";
 import Footer from "../../components/Footer/Footer";
 import Secimg from "../../assets/Secimg.svg";
 import Thirdimg from "../../assets/Thirdimg.svg";
-import vant from "../../assets/vant.svg";
-import icon from "../../assets/icon1.svg";
-import icon2 from "../../assets/icon2.svg";
-
 export default function Home() {
   return (
     <>
@@ -61,7 +57,6 @@ export default function Home() {
           </p>
         </div>
       </section>
-
       <section className="sec-section">
         <div className="sec-text">
           <h1>Eficiência Energética</h1>
@@ -80,45 +75,6 @@ export default function Home() {
           <img src={Thirdimg} alt="" />
         </div>
       </section>
-
-      <section className="third-section">
-        <div className="third-text">
-          <h1>Vantagens</h1>
-          <p>
-            Variedade de produtos para atender às suas necessidades. Visite-nos
-            para saber mais sobre nossas soluções de energia.
-          </p>
-        </div>
-
-        <div className="third-content">
-          <div className="big-square">
-            <div className="small-square">
-              <img src={icon} alt="" />
-              <h5>Descarbonização</h5>
-            </div>
-          </div>
-
-          <div className="big-square">
-            <div className="small-square">
-              <img src={icon2} alt="" />
-              <h5>Digitalização</h5>
-            </div>
-          </div>
-
-          <div className="big-square">
-            <div className="small-square"></div>
-          </div>
-
-          <div className="big-square">
-            <div className="small-square"></div>
-          </div>
-
-          <div className="big-square">
-            <div className="small-square"></div>
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </>
   );
