@@ -30,7 +30,7 @@ export default function Menu() {
       </Link>
     </li>
     <li>
-      <Link to="/ogin" className="menu-item">
+      <Link to="/login" className="menu-item">
         Login
       </Link>
     </li>

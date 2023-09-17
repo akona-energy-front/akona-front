@@ -5,6 +5,7 @@ import Image from "../../assets/main.svg";
 import Footer from "../../components/Footer/Footer";
 import Secimg from "../../assets/Secimg.svg";
 import Thirdimg from "../../assets/Thirdimg.svg";
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
@@ -30,10 +31,11 @@ export default function Home() {
             planeta, Junte-se a nós nessa jornada rumo a um mundo mais
             sustentável e energicamente consciente.
           </p>
-          <a href="#" className="btn1">
+          <a href="/sobre" className="btn1">
             Saiba Mais
           </a>
-          <a href="#" className="btn2">
+          
+          <a href="/servicos" className="btn2">
             Nossos Serviços
           </a>
         </div>
