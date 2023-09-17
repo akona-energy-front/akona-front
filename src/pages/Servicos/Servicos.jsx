@@ -1,73 +1,94 @@
 import React from "react";
 import Menu from "../../components/Menu/Menu";
 import Footer from "../../components/Footer/Footer";
-import Gas from "../../assets/Gas.svg";
-import Solar from "../../assets/Solar.svg";
-import Agua from "../../assets/Agua.svg";
-import Massa from "../../assets/Massa.svg";
-import Bio from "../../assets/Bio.svg";
-import Wire from "../../assets/Wire.svg";
+import Consultoria from "../../assets/Consultoria.svg";
+import Instalação from "../../assets/Instalação.svg";
+import Pesquisa from "../../assets/Pesquisa.svg";
+import Manutenção from "../../assets/Manutenção.svg";
+import Treinamento from "../../assets/Treinamento.svg";
+import Fabricação from "../../assets/Fabricação.svg";
 import "./Servicos.css";
-
-const services = [
-  {
-    name: "Gás Natural",
-    imgSrc: Gas,
-    description:
-      "Geração de energia elétrica através de gás natural aproveitando a energia térmica dissipada nos gases de exaustão e no bloco dos geradores para gerar também vapor, água gelada e/ou água quente.",
-  },
-  {
-    name: "Solar",
-    imgSrc: Solar,
-    description:
-      "Energia gerada a partir de um fenômeno que ocorre com as partículas de luz solar, produzindo uma energia elétrica e limpa.",
-  },
-  {
-    name: "Água de Reuso",
-    imgSrc: Agua,
-    description:
-      "A solução consiste em uma Estação de Tratamento de Efluentes (ETE) para o tratamento de efluentes e a transformação em água de reuso.",
-  },
-  {
-    name: "Biomassa",
-    imgSrc: Massa,
-    description:
-      "Geração ou cogeração de energia utilizando biomassa como combustível. É uma fonte importante de energia renovável, por reaproveitar matérias de origem animal ou vegetal como fonte de produção de calor ou eletricidade.",
-  },
-  {
-    name: "Biogás",
-    imgSrc: Bio,
-    description:
-      "Energia gerada a partir de diversas fontes, como: resíduos industriais, resíduos agrícolas, resíduos sólidos urbanos, dejetos de animais, lodo de Estações de Tratamento de Efluentes (ETEs), entre outras.",
-  },
-  {
-    name: "Gasto Wire",
-    imgSrc: Wire,
-    description:
-      "Geração de energia elétrica através do gás natural associado em poços de exploração de petróleo on-shore.",
-  },
-];
 
 export default function Servicos() {
   return (
     <>
       <Menu />
-      <div className="services">
-        <h2>Nossos Serviços</h2>
-        <div className="grid">
-          {services.map((service) => (
-            <div className="card" key={service.name}>
-              <div className="card-content">
-                <img src={service.imgSrc} alt={service.name} />
-                <div>
-                  <h3>{service.name}</h3>
-                  <p>{service.description}</p>
-                </div>
-              </div>
-            </div>
-          ))}
+      <div className="card-container">
+        <div className="card">
+          <img src={Consultoria} alt="" />
+          <div className="card-content">
+            <h3>Serviços de consultoria e assessoria</h3>
+            <p>
+              Fornecemos serviços de consultoria para ajudar os clientes a
+              determinar o melhor sistema de painéis solares para suas
+              necessidades, bem como informações sobre incentivos governamentais
+              e opções de financiamento.
+            </p>
+            <a href="#" className="btn">Explore Mais</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={Fabricação} alt="" />
+          <div className="card-content">
+            <h3>Fabricação</h3>
+            <p>
+              Este é o principal serviço prestado pelas empresas de painéis
+              solares, utilizando uma gama de materiais e processos. Isso
+              envolve o fornecimento de matérias-primas, a montagem e teste dos
+              componentes e a embalagem dos produtos acabados.
+            </p>
+            <a href="#" className="btn">Explore Mais</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={Pesquisa} alt="" />
+          <div className="card-content">
+            <h3>Pesquisa e desenvolvimento</h3>
+            <p>
+              As empresas de painéis solares podem investir pesadamente em
+              pesquisa e desenvolvimento para melhorar a eficiência, a
+              durabilidade e a relação custo-benefício dos painéis solares.
+            </p>
+            <a href="#" className="btn">Explore Mais</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={Instalação} alt="" />
+          <div className="card-content">
+            <h3>Instalação</h3>
+            <p>
+            Envolve projetar e instalar o sistema de painéis solares e garantir que ele esteja conectado à rede elétrica e funcionando corretamente.
+            </p>
+            <a href="#" className="btn">Explore Mais</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={Manutenção} alt="" />
+          <div className="card-content">
+            <h3>Manutenção e reparo</h3>
+            <p>
+            As empresas de painéis solares podem fornecer serviços de consultoria para ajudar os clientes a determinar o melhor sistema de painéis solares para suas necessidades, bem como fornecer informações sobre incentivos governamentais e opções de financiamento.
+            </p>
+            <a href="#" className="btn">Explore Mais</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={Treinamento} alt="" />
+          <div className="card-content">
+            <h3>Treinamento e Educação</h3>
+            <p>
+            Nossa empresa oferece serviços de treinamento e educação para instaladores, técnicos e engenheiros para garantir que eles tenham as habilidades e conhecimentos necessários para trabalhar com painéis solares e equipamentos relacionados.
+            </p>
+            <a href="#" className="btn">Explore Mais</a>
+          </div>
         </div>
       </div>
+
       <Footer />
     </>
   );
