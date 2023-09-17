@@ -1,11 +1,8 @@
 # Akona Energy
 
-
-
 ### 🧍‍♂️ Informações dos Alunos
 
-
-- **Nome:** Igor Nunes Teixeira 
+- **Nome:** Igor Nunes Teixeira
 
 - **RM:** 551099
 
@@ -26,6 +23,19 @@
 <br>
 
 ---
+
+<br>
+
+- **Nome:** Lucas Palamartschuk de Toledo
+
+- **RM:** 97913
+
+- **Turma:** 1ESPG
+
+<br>
+
+---
+
 <br>
 
 - **Nome:** João Lucas Yudi Redi Handa
@@ -37,15 +47,6 @@
 <br>
 
 ---
-<br>
-
-- **Nome:** Lucas Palamartschuk de Toledo
-
-- **RM:** 97913
-
-- **Turma:** 1ESPG
-
-<br>
 
 ## Credenciais de Acesso
 
