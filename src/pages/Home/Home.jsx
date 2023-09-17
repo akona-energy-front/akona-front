@@ -5,7 +5,6 @@ import Image from "../../assets/main.svg";
 import Footer from "../../components/Footer/Footer";
 import Secimg from "../../assets/Secimg.svg";
 import Thirdimg from "../../assets/Thirdimg.svg";
-
 export default function Home() {
   return (
     <>
@@ -58,15 +57,21 @@ export default function Home() {
           </p>
         </div>
       </section>
-
-      <section className="terceira-section">
-        <div className="terceiro-text">
+      <section className="sec-section">
+        <div className="sec-text">
           <h1>Eficiência Energética</h1>
           <p>
-          Eficiência energética otimiza o uso de energia, reduz custos operacionais e emissões de carbono, melhorando a competitividade e atendendo a regulamentações ambientais. Também fortalece a imagem corporativa, demonstrando responsabilidade social e ambiental. Este investimento inteligente gera benefícios financeiros e sustentáveis a longo prazo para as empresas.
+            Eficiência energética refere-se à otimização do uso de energia para
+            realizar uma determinada tarefa ou atividade, minimizando o
+            desperdício. Sendo crucial para empresas pois reduz os custos
+            operacionais, melhora a competitividade, diminui a pegada de
+            carbono, atende a regulamentações ambientais e fortalece a imagem
+            corporativa, demonstrando responsabilidade social e ambiental. A
+            eficiência energética é um investimento inteligente que gera
+            benefícios financeiros e sustentáveis a longo prazo.
           </p>
         </div>
-        <div className="terceira-image">
+        <div className="sec-image">
           <img src={Thirdimg} alt="" />
         </div>
       </section>
