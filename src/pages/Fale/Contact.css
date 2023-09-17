@@ -46,10 +46,11 @@ button {
     transition: background-color 0.3s;
 }
 
+.text-square {
+    max-width: 100%;
+}
+
 button:hover {
     background-color: #00816a; /* Verde um pouco mais escuro para hover */
 }
 
-.text-square {
-    max-width: 100%;
-}
