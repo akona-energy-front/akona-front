@@ -48,7 +48,18 @@
   margin-bottom: 1rem;
 }
 
+/* Estilos para Tablets */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .about-section {
+    padding: 2rem 7%;
+  }
 
+  .about-text,
+  .about-video {
+    margin-top: 70px;
+    width: 100%; /* Para tablets, faz com que o texto e o vídeo ocupem toda a largura */
+  }
+}
 
 /* Estilos para Celulares */
 @media screen and (max-width: 768px) {
