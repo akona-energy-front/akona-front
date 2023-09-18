@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import "./Login.css";
 import Menu from "../../components/Menu/Menu";
 import Footer from "../../components/Footer/Footer";
-import backgroundImg from "../../assets/login.svg";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -50,9 +49,6 @@ const Login = () => {
       <Menu />
       <div
         className="container"
-        style={{
-          backgroundImage: `url(${backgroundImg})`,
-        }}
       >
         <div className="loginBox">
           <form onSubmit={handleSubmit}>
