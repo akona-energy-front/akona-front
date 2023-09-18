@@ -52,3 +52,7 @@
 
 **Nome de usuário:** usuario123  
 **Senha:** senha123
+
+## GitHub
+
+**Link do repositorio:** https://github.com/akona-energy-front/akona-front
