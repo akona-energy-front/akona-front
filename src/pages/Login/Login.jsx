@@ -39,7 +39,7 @@ const Login = () => {
       localStorage.setItem("userData", JSON.stringify({ userId, username }));
 
       // Redireciona para a página /home
-      navigate("/home");
+      navigate("/");
     } else {
       alert("Esse usuário não existe.");
     }

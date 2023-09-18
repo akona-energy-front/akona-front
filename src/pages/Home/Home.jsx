@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <>
       <Menu />
-
       <section className="main">
         <div className="main-text">
           <div className="svg-container">
