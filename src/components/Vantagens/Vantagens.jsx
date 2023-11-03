@@ -21,12 +21,55 @@ export default function Vantagens() {
         <img src={safetyimg} alt="imagem energia solar" className="img" />
         <div className="cartinha-text">
           <h2>Segurança</h2>
+          <p>Nossa empresa prioriza a segurança em cada projeto de eficiência energética, protegendo tanto o ambiente quanto nossos clientes, estabelecendo um padrão exemplar de responsabilidade ambiental e segurança no setor.</p>
+        </div>
+        <div className="button-cartinha">
+        <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
+        </div>
+      </div>
+
+      <div className="cartinha">
+        <div className="square">
+          <img src={safetyicon} alt="icon segurança" className="icon" />
+        </div>
+        <img src={safetyimg} alt="imagem energia solar" className="img" />
+        <div className="cartinha-text">
+          <h2>Segurança</h2>
+          <p>Nossa empresa foca na redução dos altos custos de energia em cada projeto de eficiência energética, proporcionando economia tanto para sua empresa quanto para o meio ambiente, estabelecendo um padrão exemplar de responsabilidade financeira e sustentabilidade no setor.</p>
+        </div>
+        <div className="button-cartinha">
+        <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
+        </div>
+      </div>
+
+      <div className="cartinha">
+        <div className="square">
+          <img src={safetyicon} alt="icon segurança" className="icon" />
+        </div>
+        <img src={safetyimg} alt="imagem energia solar" className="img" />
+        <div className="cartinha-text">
+          <h2>Segurança</h2>
           <p>Nossa empresa prioriza a segurança em cada projeto de eficiência energética, protegendo tanto o ambiente quanto nossos clientes</p>
         </div>
         <div className="button-cartinha">
         <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
         </div>
       </div>
+
+      <div className="cartinha">
+        <div className="square">
+          <img src={safetyicon} alt="icon segurança" className="icon" />
+        </div>
+        <img src={safetyimg} alt="imagem energia solar" className="img" />
+        <div className="cartinha-text">
+          <h2>Segurança</h2>
+          <p>Nossa empresa prioriza a segurança em cada projeto de eficiência energética, protegendo tanto o ambiente quanto nossos clientes</p>
+        </div>
+        <div className="button-cartinha">
+        <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
+        </div>
+      </div>
+      
     </section>
   );
 }

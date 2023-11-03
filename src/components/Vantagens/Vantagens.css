@@ -11,22 +11,32 @@ body {
 }
 
 h1 {
-  margin: 20px auto;
+  margin: 50px auto; /* Reduce top margin to decrease space between h1 and the element above */
   color: #fff;
+  font-size: 2rem;
+  text-align: center;
 }
 
 h1 .green {
   background-color: #4AAB3D;
   padding: 3px;
   border-radius: 12px;
+  font-size: inherit;
 }
 
 .sub-text {
   background-color: #1c1c1c;
   color: #fff;
   text-align: center;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 10px;
+  margin-top: 10px; /* Reduce top margin to decrease space between sub-text and h1 */
+}
+
+.sub-text p {
+  font-size: 1.2rem;
 }
 
 .cartinha {
@@ -34,8 +44,10 @@ h1 .green {
   height: 450px;
   background-color: #fff;
   border-radius: 12px;
-  position: relative; 
-  margin-top: 12%;
+  position: relative;
+  margin-top: 100px; /* Reduce top margin to decrease space between cards and sub-text */
+  margin-right: 28px;
+  float: left;
 }
 
 .cartinha img {
@@ -80,96 +92,93 @@ h1 .green {
 
 .button-cartinha {
   position: absolute;
-  bottom: 10px; 
-  right: 10px; 
-  background-color: #fff;
+  bottom: 20px;
+  right: 20px;
 }
 
-.button-cartinha button {
-  width: 180px;
-  border-radius: 22px;
-  background: #4AAB3D;
-}
-
-.item9{
+.button-cartinha .item9 {
   position: relative;
   overflow: hidden;
-
-  transition: .2s;
+  transition: 0s; /* Reduced from 0.2s to 0.1s for a faster transition */
+  display: inline-block;
+  text-decoration: none;
+  width: 120px;
+  text-align: center;
+  background-color: #1c1c1c;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px;
+  cursor: pointer;
 }
 
-.item9:hover{
+
+.button-cartinha .item9:hover {
   color: #eee;
   background: #4AAB3D;
-  box-shadow: 0 0 10px #4AAB3D, 0 0 15px #4AAB3D, 0 0 30px #4AAB3D;  
-
+  box-shadow: 0 0 10px #4AAB3D, 0 0 15px #4AAB3D, 0 0 30px #4AAB3D;
   transition-delay: 1s;
 }
 
-.item9 span{
+.button-cartinha .item9 span {
   position: absolute;
   display: block;
 }
 
-.item9 span:nth-child(1){
+.button-cartinha .item9 span:nth-child(1) {
   width: 100%;
   height: 2px;
-
   top: 0;
   left: -100%;
-
   background: linear-gradient(88.89deg, transparent, #4AAB3D);
 }
 
-.item9:hover span:nth-child(1){
+.button-cartinha .item9:hover span:nth-child(1) {
   left: 100%;
   transition: 1s;
 }
 
-.item9 span:nth-child(2){
+.button-cartinha .item9 span:nth-child(2) {
   width: 2px;
   height: 100%;
-
   right: 0;
   top: -100%;
-
   background: linear-gradient(181.44deg, transparent, #4AAB3D);
 }
 
-.item9:hover span:nth-child(2){
+.button-cartinha .item9:hover span:nth-child(2) {
   top: 100%;
   transition: 1s;
-  transition-delay: .25s;
+  transition-delay: 0.25s;
 }
 
-.item9 span:nth-child(3){
+.button-cartinha .item9 span:nth-child(3) {
   width: 100%;
   height: 2px;
-
   bottom: 0;
   right: -100%;
-
-  background: linear-gradient(269.44deg, transparent, #5B2);
+  background: linear-gradient(269.44deg, transparent, #4AAB3D);
 }
 
-.item9:hover span:nth-child(3){
+.button-cartinha .item9:hover span:nth-child(3) {
   right: 100%;
   transition: 1s;
-  transition-delay: .5s;
+  transition-delay: 0.5s;
 }
 
-.item9 span:nth-child(4){
+.button-cartinha .item9 span:nth-child(4) {
   width: 2px;
   height: 100%;
-
   left: 0;
   bottom: -100%;
-
-  background: linear-gradient(359.88deg, transparent, #5B2B);
+  background: linear-gradient(359.88deg, transparent, #4AAB3D);
 }
 
-.item9:hover span:nth-child(4){
+.button-cartinha .item9:hover span:nth-child(4) {
   bottom: 100%;
   transition: 1s;
-  transition-delay: .75s;
+  transition-delay: 0.75s;
+}
+
+.card-container {
+  overflow: hidden;
 }
