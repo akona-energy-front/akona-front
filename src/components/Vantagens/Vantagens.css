@@ -19,7 +19,7 @@ h1 {
 
 h1 .green {
   background-color: #4AAB3D;
-  padding: 3px;
+  padding: 7px;
   border-radius: 12px;
   font-size: inherit;
 }
@@ -107,7 +107,7 @@ h1 .green {
   background-color: #1c1c1c;
   color: #fff;
   border-radius: 20px;
-  padding: 2px;
+  padding: 7px;
   cursor: pointer;
 }
 
