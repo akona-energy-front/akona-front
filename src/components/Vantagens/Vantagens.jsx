@@ -1,6 +1,7 @@
 import "./Vantagens.css";
 import safetyimg from "../../assets/safetyimg.svg";
 import safetyicon from "../../assets/safetyicon.svg";
+import reducaoicon from "../../assets/reducaoicon.svg";
 
 export default function Vantagens() {
   return (
@@ -30,12 +31,12 @@ export default function Vantagens() {
 
       <div className="cartinha">
         <div className="square">
-          <img src={safetyicon} alt="icon segurança" className="icon" />
+          <img src={reducaoicon} alt="icon segurança" className="icon" />
         </div>
         <img src={safetyimg} alt="imagem energia solar" className="img" />
         <div className="cartinha-text">
-          <h2>Segurança</h2>
-          <p>Nossa empresa foca na redução dos altos custos de energia em cada projeto de eficiência energética, proporcionando economia tanto para sua empresa quanto para o meio ambiente, estabelecendo um padrão exemplar de responsabilidade financeira e sustentabilidade no setor.</p>
+          <h2>Redução de Custos</h2>
+          <p>Nossa empresa busca reduzir custos de energia em projetos de eficiência, economizando para empresas e o meio ambiente, promovendo responsabilidade financeira e sustentabilidade.</p>
         </div>
         <div className="button-cartinha">
         <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
