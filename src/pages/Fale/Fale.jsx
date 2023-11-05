@@ -63,20 +63,22 @@ export default function Fale() {
         <>
             <Menu />
             <div className="contact-container">
-                <h1>Fale sobre seu projeto</h1>
+                <div className='contact-title'>
+                    <h1>Fale sobre seu projeto</h1>
+                </div>
                 <form onSubmit={handleSubmit}>
                     <div className="input-group">
                         <input 
                             type="text"
                             name="nome"
-                            placeholder="Nome" 
+                            placeholder="Seu Nome" 
                             value={formData.nome}
                             onChange={handleInputChange}
                         />
                         <input 
                             type="phone"
                             name="telefone"
-                            placeholder="Telefone" 
+                            placeholder="Seu Telefone" 
                             value={formData.telefone}
                             onChange={handleInputChange}
                         />
@@ -85,14 +87,14 @@ export default function Fale() {
                         <input 
                             type="email" 
                             name="email"
-                            placeholder="Email" 
+                            placeholder="Seu Email" 
                             value={formData.email}
                             onChange={handleInputChange}
                         />
                         <input 
                             type="text" 
                             name="empresa"
-                            placeholder="Empresa" 
+                            placeholder="Sua Empresa" 
                             value={formData.empresa}
                             onChange={handleInputChange}
                         />
@@ -100,11 +102,11 @@ export default function Fale() {
                     <textarea 
                         className='text-square'
                         name="descricao"
-                        placeholder="Descreva seu projeto aqui..."
+                        placeholder="Seu Assunto..."
                         value={formData.descricao}
                         onChange={handleInputChange}
                     ></textarea>
-                    <button type="submit">Enviar Mensagem</button>
+                    <button className='send-button' type="submit">Enviar Mensagem</button>
                 </form>
             </div>
             <Footer />
