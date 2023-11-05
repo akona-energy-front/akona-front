@@ -1,13 +1,14 @@
-/* Reset de algumas propriedades padrão */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: 'Exo', sans-serif;
 }
 
-/* Estilização do menu */
+
 .menu {
   display: flex;
   align-items: center;
