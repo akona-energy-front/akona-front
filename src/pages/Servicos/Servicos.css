@@ -19,6 +19,7 @@ body {
   margin-top: 10px;
   margin-bottom: 100px; 
   min-height: calc(100vh - 100px);
+  background-color: #1c1c1c;
 }
 
 .card {
@@ -54,16 +55,17 @@ body {
 .card-content .btn {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #fff;
+  background-color: #1c1c1c;
   text-decoration: none;
   border-radius: 14px;
   margin-top: 16px;
-  color: #1c242c;
+  color: #fff;
   border: 2px solid #1c242c;
 }
 
 .card-content .btn:hover {
-  background-color: #e86a33;
+  background-color: #4AAB3D;
+  scale: 1.1;
 }
 
 /* Resposta para tablets */
