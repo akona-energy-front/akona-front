@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  margin: 50px auto; /* Reduce top margin to decrease space between h1 and the element above */
+  margin: 2.5rem auto; /* Reduzido de 50px para 2.5rem */
   color: #fff;
   font-size: 2rem;
   text-align: center;
@@ -19,8 +19,8 @@ h1 {
 
 h1 .green {
   background-color: #4AAB3D;
-  padding: 7px;
-  border-radius: 12px;
+  padding: 0.7rem;
+  border-radius: 1.2rem;
   font-size: inherit;
 }
 
@@ -31,8 +31,8 @@ h1 .green {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
-  margin-top: 10px; /* Reduce top margin to decrease space between sub-text and h1 */
+  padding: 1rem;
+  margin-top: 1rem; /* Reduzido de 10px para 1rem */
 }
 
 .sub-text p {
@@ -40,12 +40,12 @@ h1 .green {
 }
 
 .cartinha {
-  width: 300px;
-  height: 450px;
+  width: 300px; 
+  height: 450px; /* Reduzido de 450px para 28.8rem */
   background-color: #fff;
-  border-radius: 12px;
+  border-radius: 1.8rem;
   position: relative;
-  margin-top: 100px;
+  margin-top: 6rem; 
   display: inline-block;
 }
 
@@ -61,10 +61,10 @@ h1 .green {
 
 .square {
   background-color: #fff;
-  border-radius: 2px;
-  border: 1px solid #f2f2f2;
-  width: 86px;
-  height: 76px;
+  border-radius: 0.2rem; /* Reduzido de 2px para 0.2rem */
+  border: 0.1rem solid #f2f2f2;
+  width: 4.32rem; /* Reduzido de 86px para 4.32rem */
+  height: 3.84rem; /* Reduzido de 76px para 3.84rem */
   position: absolute;
   top: 28%;
   left: 24%;
@@ -73,11 +73,11 @@ h1 .green {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px; 
+  padding: 0.4rem; /* Reduzido de 10px para 0.4rem */
 }
 
 .square .icon {
-  width: 100%; 
+  width: 100%;
 }
 
 .cartinha-text {
@@ -86,41 +86,40 @@ h1 .green {
 }
 
 .cartinha-text p {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 1rem; 
+  margin-left: 1rem; 
 }
 
 .cartinha-text h2 {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 1rem; 
+  margin-left: 1rem; 
 }
 
 .button-cartinha {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 1.25rem; 
+  right: 1.25rem; 
 }
 
 .button-cartinha .item9 {
   position: relative;
   overflow: hidden;
-  transition: 0s; /* Reduced from 0.2s to 0.1s for a faster transition */
+  transition: 0s;
   display: inline-block;
   text-decoration: none;
   width: 120px;
   text-align: center;
   background-color: #1c1c1c;
   color: #fff;
-  border-radius: 20px;
-  padding: 7px;
+  border-radius: 1.2rem;
+  padding: 7px; 
   cursor: pointer;
 }
-
 
 .button-cartinha .item9:hover {
   color: #eee;
   background: #4AAB3D;
-  box-shadow: 0 0 10px #4AAB3D, 0 0 15px #4AAB3D, 0 0 30px #4AAB3D;
+  box-shadow: 0 0 1rem #4AAB3D, 0 0 1.5rem #4AAB3D, 0 0 3rem #4AAB3D;
   transition-delay: 1s;
 }
 
@@ -131,7 +130,7 @@ h1 .green {
 
 .button-cartinha .item9 span:nth-child(1) {
   width: 100%;
-  height: 2px;
+  height: 2px; 
   top: 0;
   left: -100%;
   background: linear-gradient(88.89deg, transparent, #4AAB3D);
@@ -143,7 +142,7 @@ h1 .green {
 }
 
 .button-cartinha .item9 span:nth-child(2) {
-  width: 2px;
+  width: 2px; 
   height: 100%;
   right: 0;
   top: -100%;
@@ -171,7 +170,7 @@ h1 .green {
 }
 
 .button-cartinha .item9 span:nth-child(4) {
-  width: 2px;
+  width: 0.1rem; /* Reduzido de 2px para 0.1rem */
   height: 100%;
   left: 0;
   bottom: -100%;
