@@ -20,61 +20,64 @@ export default function Vantagens() {
         </p>
       </div>
 
-      <div className="cartinha">
-        <div className="square">
-          <img src={safetyicon} alt="icon segurança" className="icon" />
+      <div className="conteiner-cartinha">
+        <div className="cartinha">
+          <div className="square">
+            <img src={safetyicon} alt="icon segurança" className="icon" />
+          </div>
+          <img src={safetyimg} alt="imagem energia solar" className="img" />
+          <div className="cartinha-text">
+            <h2>Segurança</h2>
+            <p>Nossa empresa prioriza a segurança em cada projeto de eficiência energética, protegendo tanto o ambiente quanto nossos clientes, estabelecendo um padrão exemplar de responsabilidade ambiental e segurança no setor.</p>
+          </div>
+          <div className="button-cartinha">
+          <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
+          </div>
         </div>
-        <img src={safetyimg} alt="imagem energia solar" className="img" />
-        <div className="cartinha-text">
-          <h2>Segurança</h2>
-          <p>Nossa empresa prioriza a segurança em cada projeto de eficiência energética, protegendo tanto o ambiente quanto nossos clientes, estabelecendo um padrão exemplar de responsabilidade ambiental e segurança no setor.</p>
+
+        <div className="cartinha">
+          <div className="square">
+            <img src={reducaoicon} alt="icon segurança" className="icon" />
+          </div>
+          <img src={reducaoimg} alt="imagem energia solar" className="img" />
+          <div className="cartinha-text">
+            <h2>Redução de Custos</h2>
+            <p>Nossa empresa busca reduzir custos de energia em projetos de eficiência, economizando para empresas e o meio ambiente, promovendo responsabilidade financeira e sustentabilidade.</p>
+          </div>
+          <div className="button-cartinha">
+          <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
+          </div>
         </div>
-        <div className="button-cartinha">
-        <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
+
+        <div className="cartinha">
+          <div className="square">
+            <img src={upgrade} alt="icon segurança" className="icon" />
+          </div>
+          <img src={upgradeimg} alt="imagem energia solar" className="img" />
+          <div className="cartinha-text">
+            <h2>Valorização da Marca</h2>
+            <p>Nossa empresa de eficiência energética valoriza sua marca com compromisso ambiental, segurança, inovação e eficácia, fortalecendo sua reputação e atraindo clientes conscientes</p>
+          </div>
+          <div className="button-cartinha">
+          <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
+          </div>
+        </div>
+
+        <div className="cartinha">
+          <div className="square">
+            <img src={sustainability} alt="icon segurança" className="icon" />
+          </div>
+          <img src={sustainabilityimg} alt="imagem energia solar" className="img" />
+          <div className="cartinha-text">
+            <h2>Segurança</h2>
+            <p>Nossa empresa de eficiência energética reduz custos, promovendo a sustentabilidade e diminuindo a pegada de carbono de sua empresa de forma eficaz, duradoura e responsável, beneficiando a todos</p>
+          </div>
+          <div className="button-cartinha">
+          <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
+          </div>
         </div>
       </div>
 
-      <div className="cartinha">
-        <div className="square">
-          <img src={reducaoicon} alt="icon segurança" className="icon" />
-        </div>
-        <img src={reducaoimg} alt="imagem energia solar" className="img" />
-        <div className="cartinha-text">
-          <h2>Redução de Custos</h2>
-          <p>Nossa empresa busca reduzir custos de energia em projetos de eficiência, economizando para empresas e o meio ambiente, promovendo responsabilidade financeira e sustentabilidade.</p>
-        </div>
-        <div className="button-cartinha">
-        <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
-        </div>
-      </div>
-
-      <div className="cartinha">
-        <div className="square">
-          <img src={upgrade} alt="icon segurança" className="icon" />
-        </div>
-        <img src={upgradeimg} alt="imagem energia solar" className="img" />
-        <div className="cartinha-text">
-          <h2>Valorização da Marca</h2>
-          <p>Nossa empresa de eficiência energética valoriza sua marca com compromisso ambiental, segurança, inovação e eficácia, fortalecendo sua reputação e atraindo clientes conscientes</p>
-        </div>
-        <div className="button-cartinha">
-        <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
-        </div>
-      </div>
-
-      <div className="cartinha">
-        <div className="square">
-          <img src={sustainability} alt="icon segurança" className="icon" />
-        </div>
-        <img src={sustainabilityimg} alt="imagem energia solar" className="img" />
-        <div className="cartinha-text">
-          <h2>Segurança</h2>
-          <p>Nossa empresa de eficiência energética reduz custos, promovendo a sustentabilidade e diminuindo a pegada de carbono de sua empresa de forma eficaz, duradoura e responsável, beneficiando a todos</p>
-        </div>
-        <div className="button-cartinha">
-        <a class="button-inter item9"><span></span><span></span><span></span><span></span>Saiba Mais</a>
-        </div>
-      </div>
       
     </section>
   );
