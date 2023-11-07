@@ -45,9 +45,14 @@ h1 .green {
   background-color: #fff;
   border-radius: 12px;
   position: relative;
-  margin-top: 100px; /* Reduce top margin to decrease space between cards and sub-text */
-  margin-right: 28px;
-  float: left;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.conteiner-cartinha {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1c1c;
 }
 
 .cartinha img {
