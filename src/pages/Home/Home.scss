@@ -188,18 +188,18 @@ section {
 }
 
 .tips-title {
-  display: flex; /* Permite que os spans sejam flexíveis */
-  align-items: center; /* Alinha os spans verticalmente */
-  justify-content: center; /* Alinha horizontalmente no centro */
-  text-align: center; /* Centraliza o texto dentro do elemento */
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
 }
 
 .tips-title span:first-child {
-  background-color: #4AAB3D; /* Cor do quadrado verde atrás de "Nossos" */
-  padding: 5px 10px; /* Espaçamento interno do quadrado verde */
-  border-radius: 8px; /* Borda arredondada do quadrado verde */
-  color: #fff; /* Cor do texto "Nossos" */
-  margin-right: 10px; /* Espaço entre o quadrado verde e "Nossos" */
+  background-color: #4AAB3D; 
+  padding: 5px 10px; 
+  border-radius: 8px; 
+  color: #fff; 
+  margin-right: 10px; 
 }
 
 .tips-cartinha {
@@ -226,18 +226,18 @@ section {
 }
 
 .tips-title {
-  display: flex; /* Permite que os spans sejam flexíveis */
-  align-items: center; /* Alinha os spans verticalmente */
-  justify-content: center; /* Alinha horizontalmente no centro */
-  text-align: center; /* Centraliza o texto dentro do elemento */
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
 }
 
 .tips-title span:first-child {
-  background-color: #4AAB3D; /* Cor do quadrado verde atrás de "Nossos" */
-  padding: 5px 10px; /* Espaçamento interno do quadrado verde */
-  border-radius: 8px; /* Borda arredondada do quadrado verde */
-  color: #fff; /* Cor do texto "Nossos" */
-  margin-right: 10px; /* Espaço entre o quadrado verde e "Nossos" */
+  background-color: #4AAB3D; 
+  padding: 5px 10px;
+  border-radius: 8px; 
+  color: #fff; 
+  margin-right: 10px; 
 }
 
 .tips-cartinha {
@@ -285,7 +285,7 @@ section {
   color: #fff;
 }
 
-/* Responsividade para tablet */
+
 @media (max-width: 768px) {
   .main {
     grid-template-columns: 1fr;
@@ -303,7 +303,7 @@ section {
   }
 }
 
-/* Responsividade para celular */
+
 @media (max-width: 480px) {
   section {
     padding: 0 5%;

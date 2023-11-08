@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "../../components/Menu/Menu";
-import "./Home.css";
+import "./Home.scss";
 import Image from "../../assets/main.svg";
 import Footer from "../../components/Footer/Footer";
 import Secimg from "../../assets/Secimg.svg";
@@ -122,16 +122,3 @@ export default function Home() {
 
 
 
-
-{/* <div className="tips-container">
-<div className="tips-cartinha">
-  <img src={icon1} alt="icon 1" />
-  <div className="tips-text">
-    <h1>Facil Instalação</h1>
-    <p>Com a nossa solução de energia, a instalação é simples e eficiente.</p>
-    <div className="tips-button">
-      <button><a href="#">Saiba Mais</a></button>
-    </div>
-  </div>
-</div>
-</div> */}

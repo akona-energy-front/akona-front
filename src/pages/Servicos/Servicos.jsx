@@ -7,7 +7,7 @@ import Pesquisa from "../../assets/Pesquisa.svg";
 import Manutenção from "../../assets/Manutenção.svg";
 import Treinamento from "../../assets/Treinamento.svg";
 import Fabricação from "../../assets/Fabricação.svg";
-import "./Servicos.css";
+import "./Servicos.scss";
 
 export default function Servicos() {
   return (

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Contact.css';
+import './Contact.scss';
 import Menu from "../../components/Menu/Menu";
 import Footer from "../../components/Footer/Footer";
 

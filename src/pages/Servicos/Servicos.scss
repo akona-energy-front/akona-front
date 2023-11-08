@@ -68,18 +68,18 @@ body {
   scale: 1.1;
 }
 
-/* Resposta para tablets */
+
 @media only screen and (max-width: 1024px) {
   .card {
-    width: calc(50% - 60px); /* 2 cards per row */
+    width: calc(50% - 60px); 
   }
 }
 
-/* Resposta para celulares */
+
 @media only screen and (max-width: 768px) {
   .card {
-    width: calc(100% - 40px); /* 1 card per row */
-    margin: 10px 20px; /* Adjust margin */
+    width: calc(100% - 40px); 
+    margin: 10px 20px; 
   }
 
   .card-content h3 {
