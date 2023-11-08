@@ -6,6 +6,10 @@ import Footer from "../../components/Footer/Footer";
 import Secimg from "../../assets/Secimg.svg";
 import Thirdimg from "../../assets/Thirdimg.svg";
 import { Link } from "react-router-dom";
+import icon1 from "../../assets/icon1.svg";
+import icon2 from "../../assets/icon2.svg";
+import icon3 from "../../assets/icon3.svg";
+
 export default function Home() {
   return (
     <>
@@ -43,6 +47,55 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="tips-section">
+        <h1 className="tips-title"><span>Nossos</span> Beneficios</h1>
+        <div className="tips-container">
+          <div className="tips-cartinha">
+            <img src={icon1} alt="icon 1" />
+            <div className="tips-text">
+              <h1>FÁCIL INSTALAÇÃO</h1>
+              <p>Com a nossa solução de energia, a instalação é simples e eficiente.</p>
+              <div className="tips-button">
+                <button><a href="#">Saiba Mais</a></button>
+              </div>
+            </div>
+          </div>
+
+          <div className="tips-cartinha">
+            <img src={icon2} alt="icon 1" />
+            <div className="tips-text">
+              <h1>ECOLÓGICO</h1>
+              <p>A energia solar é amiga do ambiente, gerando eletricidade sem poluir.</p>
+              <div className="tips-button">
+                <button><a href="#">Saiba Mais</a></button>
+              </div>
+            </div>
+          </div>
+
+          <div className="tips-cartinha">
+            <img src={icon3} alt="icon 1" />
+            <div className="tips-text">
+              <h1>BAIXA MANUTENÇÃO</h1>
+              <p>A energia solar tem manutenção econômica, poupando recursos.</p>
+              <div className="tips-button">
+                <button><a href="#">Saiba Mais</a></button>
+              </div>
+            </div>
+          </div>
+
+          <div className="tips-cartinha">
+            <img src={icon1} alt="icon 1" />
+            <div className="tips-text">
+              <h1>ECONÔMICO.</h1>
+              <p>A energia solar é economicamente vantajosa, reduzindo custos.</p>
+              <div className="tips-button">
+                <button><a href="#">Saiba Mais</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="sec-section">
         <div className="sec-image">
           <img src={Secimg} alt="" />
@@ -58,25 +111,27 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="sec-section">
-        <div className="sec-text">
-          <h1>Eficiência Energética</h1>
-          <p>
-            Eficiência energética refere-se à otimização do uso de energia para
-            realizar uma determinada tarefa ou atividade, minimizando o
-            desperdício. Sendo crucial para empresas pois reduz os custos
-            operacionais, melhora a competitividade, diminui a pegada de
-            carbono, atende a regulamentações ambientais e fortalece a imagem
-            corporativa, demonstrando responsabilidade social e ambiental. A
-            eficiência energética é um investimento inteligente que gera
-            benefícios financeiros e sustentáveis a longo prazo.
-          </p>
-        </div>
-        <div className="sec-image">
-          <img src={Thirdimg} alt="" />
-        </div>
-      </section>
       <Footer />
     </>
   );
 }
+
+
+
+
+
+
+
+
+{/* <div className="tips-container">
+<div className="tips-cartinha">
+  <img src={icon1} alt="icon 1" />
+  <div className="tips-text">
+    <h1>Facil Instalação</h1>
+    <p>Com a nossa solução de energia, a instalação é simples e eficiente.</p>
+    <div className="tips-button">
+      <button><a href="#">Saiba Mais</a></button>
+    </div>
+  </div>
+</div>
+</div> */}
