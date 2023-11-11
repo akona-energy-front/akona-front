@@ -1,19 +1,18 @@
 import React from "react";
-import Menu from "../../components/Menu/Menu";
-import "./Home.scss";
-import Image from "../../assets/main.svg";
-import Footer from "../../components/Footer/Footer";
-import Secimg from "../../assets/Secimg.svg";
-import Thirdimg from "../../assets/Thirdimg.svg";
+import Menu from "../components/Menu/Menu";
+import "../scss/Home.scss";
+import Image from "../assets/main.svg";
+import Footer from "../components/Footer/Footer";
+import Secimg from "../assets/Secimg.svg";
+import Thirdimg from "../assets/Thirdimg.svg";
 import { Link } from "react-router-dom";
-import icon1 from "../../assets/icon1.svg";
-import icon2 from "../../assets/icon2.svg";
-import icon3 from "../../assets/icon3.svg";
+import icon1 from "../assets/icon1.svg";
+import icon2 from "../assets/icon2.svg";
+import icon3 from "../assets/icon3.svg";
 
 export default function Home() {
   return (
     <>
-      <Menu />
       <section className="main">
         <div className="main-text">
           <div className="svg-container">
@@ -37,7 +36,7 @@ export default function Home() {
           <a href="/sobre" className="btn1">
             Saiba Mais
           </a>
-          
+
           <a href="/servicos" className="btn2">
             Nossos Serviços
           </a>
@@ -48,15 +47,22 @@ export default function Home() {
       </section>
 
       <section className="tips-section">
-        <h1 className="tips-title"><span>Nossos</span> Beneficios</h1>
+        <h1 className="tips-title">
+          <span>Nossos</span> Beneficios
+        </h1>
         <div className="tips-container">
           <div className="tips-cartinha">
             <img src={icon1} alt="icon 1" />
             <div className="tips-text">
               <h1>FÁCIL INSTALAÇÃO</h1>
-              <p>Com a nossa solução de energia, a instalação é simples e eficiente.</p>
+              <p>
+                Com a nossa solução de energia, a instalação é simples e
+                eficiente.
+              </p>
               <div className="tips-button">
-                <button><a href="#">Saiba Mais</a></button>
+                <button>
+                  <a href="#">Saiba Mais</a>
+                </button>
               </div>
             </div>
           </div>
@@ -65,9 +71,14 @@ export default function Home() {
             <img src={icon2} alt="icon 1" />
             <div className="tips-text">
               <h1>ECOLÓGICO</h1>
-              <p>A energia solar é amiga do ambiente, gerando eletricidade sem poluir.</p>
+              <p>
+                A energia solar é amiga do ambiente, gerando eletricidade sem
+                poluir.
+              </p>
               <div className="tips-button">
-                <button><a href="#">Saiba Mais</a></button>
+                <button>
+                  <a href="#">Saiba Mais</a>
+                </button>
               </div>
             </div>
           </div>
@@ -76,9 +87,13 @@ export default function Home() {
             <img src={icon3} alt="icon 1" />
             <div className="tips-text">
               <h1>BAIXA MANUTENÇÃO</h1>
-              <p>A energia solar tem manutenção econômica, poupando recursos.</p>
+              <p>
+                A energia solar tem manutenção econômica, poupando recursos.
+              </p>
               <div className="tips-button">
-                <button><a href="#">Saiba Mais</a></button>
+                <button>
+                  <a href="#">Saiba Mais</a>
+                </button>
               </div>
             </div>
           </div>
@@ -87,9 +102,13 @@ export default function Home() {
             <img src={icon1} alt="icon 1" />
             <div className="tips-text">
               <h1>ECONÔMICO.</h1>
-              <p>A energia solar é economicamente vantajosa, reduzindo custos.</p>
+              <p>
+                A energia solar é economicamente vantajosa, reduzindo custos.
+              </p>
               <div className="tips-button">
-                <button><a href="#">Saiba Mais</a></button>
+                <button>
+                  <a href="#">Saiba Mais</a>
+                </button>
               </div>
             </div>
           </div>
@@ -111,14 +130,6 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <Footer />
     </>
   );
 }
-
-
-
-
-
-
-

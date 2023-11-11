@@ -1,18 +1,17 @@
 import React from "react";
-import Menu from "../../components/Menu/Menu";
-import Footer from "../../components/Footer/Footer";
-import Consultoria from "../../assets/Consultoria.svg";
-import Instalação from "../../assets/Instalação.svg";
-import Pesquisa from "../../assets/Pesquisa.svg";
-import Manutenção from "../../assets/Manutenção.svg";
-import Treinamento from "../../assets/Treinamento.svg";
-import Fabricação from "../../assets/Fabricação.svg";
-import "./Servicos.scss";
+import Menu from "../components/Menu/Menu";
+import Footer from "../components/Footer/Footer";
+import Consultoria from "../assets/Consultoria.svg";
+import Instalação from "../assets/Instalação.svg";
+import Pesquisa from "../assets/Pesquisa.svg";
+import Manutenção from "../assets/Manutenção.svg";
+import Treinamento from "../assets/Treinamento.svg";
+import Fabricação from "../assets/Fabricação.svg";
+import "../scss/Servicos.scss";
 
 export default function Servicos() {
   return (
     <>
-      <Menu />
       <div className="card-container">
         <div className="card">
           <img src={Consultoria} alt="" />
@@ -24,7 +23,9 @@ export default function Servicos() {
               necessidades, bem como informações sobre incentivos governamentais
               e opções de financiamento.
             </p>
-            <a href="#" className="btn">Explore Mais</a>
+            <a href="#" className="btn">
+              Explore Mais
+            </a>
           </div>
         </div>
 
@@ -38,7 +39,9 @@ export default function Servicos() {
               envolve o fornecimento de matérias-primas, a montagem e teste dos
               componentes e a embalagem dos produtos acabados.
             </p>
-            <a href="#" className="btn">Explore Mais</a>
+            <a href="#" className="btn">
+              Explore Mais
+            </a>
           </div>
         </div>
 
@@ -51,7 +54,9 @@ export default function Servicos() {
               pesquisa e desenvolvimento para melhorar a eficiência, a
               durabilidade e a relação custo-benefício dos painéis solares.
             </p>
-            <a href="#" className="btn">Explore Mais</a>
+            <a href="#" className="btn">
+              Explore Mais
+            </a>
           </div>
         </div>
 
@@ -60,9 +65,13 @@ export default function Servicos() {
           <div className="card-content">
             <h3>Instalação</h3>
             <p>
-            Envolve projetar e instalar o sistema de painéis solares e garantir que ele esteja conectado à rede elétrica e funcionando corretamente.
+              Envolve projetar e instalar o sistema de painéis solares e
+              garantir que ele esteja conectado à rede elétrica e funcionando
+              corretamente.
             </p>
-            <a href="#" className="btn">Explore Mais</a>
+            <a href="#" className="btn">
+              Explore Mais
+            </a>
           </div>
         </div>
 
@@ -71,9 +80,15 @@ export default function Servicos() {
           <div className="card-content">
             <h3>Manutenção e reparo</h3>
             <p>
-            As empresas de painéis solares podem fornecer serviços de consultoria para ajudar os clientes a determinar o melhor sistema de painéis solares para suas necessidades, bem como fornecer informações sobre incentivos governamentais e opções de financiamento.
+              As empresas de painéis solares podem fornecer serviços de
+              consultoria para ajudar os clientes a determinar o melhor sistema
+              de painéis solares para suas necessidades, bem como fornecer
+              informações sobre incentivos governamentais e opções de
+              financiamento.
             </p>
-            <a href="#" className="btn">Explore Mais</a>
+            <a href="#" className="btn">
+              Explore Mais
+            </a>
           </div>
         </div>
 
@@ -82,14 +97,17 @@ export default function Servicos() {
           <div className="card-content">
             <h3>Treinamento e Educação</h3>
             <p>
-            Nossa empresa oferece serviços de treinamento e educação para instaladores, técnicos e engenheiros para garantir que eles tenham as habilidades e conhecimentos necessários para trabalhar com painéis solares e equipamentos relacionados.
+              Nossa empresa oferece serviços de treinamento e educação para
+              instaladores, técnicos e engenheiros para garantir que eles tenham
+              as habilidades e conhecimentos necessários para trabalhar com
+              painéis solares e equipamentos relacionados.
             </p>
-            <a href="#" className="btn">Explore Mais</a>
+            <a href="#" className="btn">
+              Explore Mais
+            </a>
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

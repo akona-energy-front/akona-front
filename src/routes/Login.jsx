@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Login.scss";
-import Menu from "../../components/Menu/Menu";
-import Footer from "../../components/Footer/Footer";
-import avatar from "../../assets/avatar.svg";
+import "../scss/Login.scss";
+import Menu from "../components/Menu/Menu";
+import Footer from "../components/Footer/Footer";
+import avatar from "../assets/avatar.svg";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -47,12 +47,11 @@ const Login = () => {
 
   return (
     <>
-      <Menu />
       <div className="container">
         <div className="loginBox">
-        <div className="user-avatar">
-          <img src={avatar} alt="Imagem do usuário" />
-        </div>
+          <div className="user-avatar">
+            <img src={avatar} alt="Imagem do usuário" />
+          </div>
           <form onSubmit={handleSubmit}>
             <input
               type="text"
@@ -74,7 +73,6 @@ const Login = () => {
           </form>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

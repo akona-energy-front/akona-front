@@ -1,17 +1,15 @@
-import AppRoutes from './AppRoutes';
-import {BrowserRouter} from "react-router-dom"
-import GlobalStyle from './GlobalStyles';
+import styles from "./scss/App.module.scss";
+import { Outlet } from "react-router-dom";
+import Nav from './components/Menu/Menu'
+import Footer from './components/Footer/Footer'
 
-
-const App = () =>{
+export default function App()  {
   return (
-    <>
-      <GlobalStyle/>
-      <BrowserRouter>
-      <AppRoutes/> 
-      </BrowserRouter>
-    </>
-  );
-}
+    <div>
+        <Nav/>
+          <Outlet/>
+        <Footer/>
 
-export default App;
+    </div>
+  )
+}

@@ -1,0 +1,11 @@
+{
+    "dicasEconomiaEnergia": [
+      {
+        "id": 1,
+        "titulo": "Use Lâmpadas LED",
+        "descricao": "Lâmpadas LED consomem até 80% menos energia do que as lâmpadas tradicionais.",
+        "categoria": "Iluminação"
+      }
+    ]
+  }
+  
