@@ -1,4 +1,4 @@
-import "./Vantagens.css";
+import "./Vantagens.scss";
 import safetyimg from "../../assets/safetyimg.svg";
 import safetyicon from "../../assets/safetyicon.svg";
 import reducaoicon from "../../assets/reducaoicon.svg";

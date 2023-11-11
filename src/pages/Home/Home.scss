@@ -61,7 +61,7 @@ div {
 .fale-conosco-button:hover {
   background-color: #81b214;
   color: #fff;
-  scale: 1.2;
+  transform: scale(1.2);
 }
 
 section {
@@ -180,7 +180,112 @@ section {
   max-width: 100%;
 }
 
-/* Responsividade para tablet */
+.tips-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background-color: #1c1c1c;
+}
+
+.tips-title {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+}
+
+.tips-title span:first-child {
+  background-color: #4AAB3D; 
+  padding: 5px 10px; 
+  border-radius: 8px; 
+  color: #fff; 
+  margin-right: 10px; 
+}
+
+.tips-cartinha {
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+}
+
+.tips-cartinha img {
+  width: 100%;
+  height: 100px;
+}
+
+.tips-text {
+  background-color: #fff;
+}
+
+.tips-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  background-color: #1c1c1c;
+}
+
+.tips-title {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+}
+
+.tips-title span:first-child {
+  background-color: #4AAB3D; 
+  padding: 5px 10px;
+  border-radius: 8px; 
+  color: #fff; 
+  margin-right: 10px; 
+}
+
+.tips-cartinha {
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+}
+
+.tips-cartinha img {
+  width: 100%;
+  height: 100px;
+}
+
+.tips-text {
+  background-color: #fff;
+}
+
+.tips-text p {
+  margin-bottom: 5px; 
+}
+
+.tips-text h1 {
+  font-size: 1.5rem;
+  color: #1c242c;
+  white-space: nowrap;
+}
+
+.tips-button {
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.tips-button button {
+  background-color: #4AAB3D;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tips-button button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
 @media (max-width: 768px) {
   .main {
     grid-template-columns: 1fr;
@@ -198,7 +303,7 @@ section {
   }
 }
 
-/* Responsividade para celular */
+
 @media (max-width: 480px) {
   section {
     padding: 0 5%;

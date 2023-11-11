@@ -3,7 +3,7 @@ import Menu from "../../components/Menu/Menu";
 import Footer from "../../components/Footer/Footer";
 import Consultoria from "../../assets/Consultoria.svg"
 import Akona from "../../assets/Akona.mp4";
-import "./Sobre.css";
+import "./Sobre.scss";
 
 export default function Sobre() {
   const navigate = useNavigate();

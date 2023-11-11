@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  margin: 2.5rem auto; /* Reduzido de 50px para 2.5rem */
+  margin: 2.5rem auto; 
   color: #fff;
   font-size: 2rem;
   text-align: center;
@@ -32,27 +32,27 @@ h1 .green {
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  margin-top: 1rem; /* Reduzido de 10px para 1rem */
+  margin-top: 1rem; 
 }
 
 .sub-text p {
   font-size: 1.2rem;
 }
 
+.conteiner-cartinha {
+  display: flex;
+  background-color: #1c1c1c;
+  gap: 30px; 
+}
+
 .cartinha {
-  width: 300px; 
-  height: 450px; /* Reduzido de 450px para 28.8rem */
+  width: 300px;
+  height: 450px;
   background-color: #fff;
   border-radius: 1.8rem;
   position: relative;
-  margin-top: 6rem; 
+  margin-top: 6rem;
   display: inline-block;
-}
-
-.conteiner-cartinha {
-  display: flex;
-  justify-content: space-between;
-  background-color: #1c1c1c;
 }
 
 .cartinha img {
@@ -61,10 +61,10 @@ h1 .green {
 
 .square {
   background-color: #fff;
-  border-radius: 0.2rem; /* Reduzido de 2px para 0.2rem */
+  border-radius: 0.2rem; 
   border: 0.1rem solid #f2f2f2;
-  width: 4.32rem; /* Reduzido de 86px para 4.32rem */
-  height: 3.84rem; /* Reduzido de 76px para 3.84rem */
+  width: 4.32rem; 
+  height: 3.84rem; 
   position: absolute;
   top: 28%;
   left: 24%;
@@ -73,7 +73,7 @@ h1 .green {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.4rem; /* Reduzido de 10px para 0.4rem */
+  padding: 0.4rem; 
 }
 
 .square .icon {
@@ -170,7 +170,7 @@ h1 .green {
 }
 
 .button-cartinha .item9 span:nth-child(4) {
-  width: 0.1rem; /* Reduzido de 2px para 0.1rem */
+  width: 0.1rem; 
   height: 100%;
   left: 0;
   bottom: -100%;
