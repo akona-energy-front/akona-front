@@ -19,7 +19,7 @@ h1 {
 
 h1 .green {
   background-color: #4AAB3D;
-  padding: 0.7rem;
+  padding: 0.4rem;
   border-radius: 1.2rem;
   font-size: inherit;
 }
@@ -185,4 +185,11 @@ h1 .green {
 
 .card-container {
   overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .conteiner-cartinha{
+    width: 100%;
+    flex-direction: column;
+  }
 }
