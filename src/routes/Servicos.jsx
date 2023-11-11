@@ -1,6 +1,4 @@
 import React from "react";
-import Menu from "../components/Menu/Menu";
-import Footer from "../components/Footer/Footer";
 import Consultoria from "../assets/Consultoria.svg";
 import Instalação from "../assets/Instalação.svg";
 import Pesquisa from "../assets/Pesquisa.svg";

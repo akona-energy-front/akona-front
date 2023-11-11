@@ -31,6 +31,11 @@ export default function Menu() {
       </Link>
     </li>
     <li>
+      <Link to="/dicas" className="menu-item">
+        Dicas
+      </Link>
+    </li>
+    <li>
       <Link to="/login" className="menu-item">
         Login
       </Link>

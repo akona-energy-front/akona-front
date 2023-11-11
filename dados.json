@@ -1,11 +1,16 @@
 {
-    "dicasEconomiaEnergia": [
-      {
-        "id": 1,
-        "titulo": "Use Lâmpadas LED",
-        "descricao": "Lâmpadas LED consomem até 80% menos energia do que as lâmpadas tradicionais.",
-        "categoria": "Iluminação"
-      }
-    ]
-  }
-  
+  "dicas": [
+    {
+      "id": 2,
+      "titulo": "Desligue Aparelhos Não Utilizados",
+      "descricao": "Desligue aparelhos eletrônicos e tire-os da tomada quando não estiverem em uso para evitar o consumo de energia no modo standby.",
+      "categoria": "Eletrônicos"
+    },
+    {
+      "id": 3,
+      "titulo": "Aproveite a Luz Natural",
+      "descricao": "Utilize ao máximo a luz natural durante o dia, abrindo cortinas e janelas, para reduzir a necessidade de iluminação artificial.",
+      "categoria": "Iluminação"
+    }
+  ]
+}

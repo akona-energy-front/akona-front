@@ -10,6 +10,7 @@ import Vantagensp from './routes/Vantagensp.jsx';
 import Servicos from './routes/Servicos.jsx';
 import Fale from './routes/Fale.jsx';
 import Home from './routes/Home.jsx';
+import Dicas from './routes/DicaList.jsx';
 
 const routes = createBrowserRouter([
   { path: "/" , element: <App/>,
@@ -19,7 +20,8 @@ const routes = createBrowserRouter([
       {path: "/login", element: <Login/>},
       {path: "/sobre", element: <Sobre/>},
       {path: "/servicos", element: <Servicos/>},
-      {path: "/fale", element: <Fale/>}
+      {path: "/fale", element: <Fale/>},
+      {path: "/dicas", element: <Dicas/>}
 
    ]
   }

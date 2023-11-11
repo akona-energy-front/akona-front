@@ -1,6 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Menu from "../components/Menu/Menu";
-import Footer from "../components/Footer/Footer";
 import Consultoria from "../assets/Consultoria.svg";
 import Akona from "../assets/Akona.mp4";
 import "../scss/Sobre.scss";

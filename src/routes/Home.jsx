@@ -1,8 +1,6 @@
 import React from "react";
-import Menu from "../components/Menu/Menu";
 import "../scss/Home.scss";
 import Image from "../assets/main.svg";
-import Footer from "../components/Footer/Footer";
 import Secimg from "../assets/Secimg.svg";
 import Thirdimg from "../assets/Thirdimg.svg";
 import { Link } from "react-router-dom";
