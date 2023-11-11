@@ -95,22 +95,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section className="sec-section">
-        <div className="sec-image">
-          <img src={Secimg} alt="" />
-        </div>
-        <div className="sec-text">
-          <h1>Porque a Akona?</h1>
-          <p>
-            somos especialistas no assunto, contando com uma equipe altamente
-            qualificada e experiente, pronta para personalizar soluções que
-            atendam às suas necessidades específicas. priorizando a
-            sustentabilidade, ajudando a reduzir seus custos energéticos e sua
-            pegada de carbono. garantindo resultados comprovados e mensuráveis.
-          </p>
-        </div>
-      </section>
       <Footer />
     </>
   );
