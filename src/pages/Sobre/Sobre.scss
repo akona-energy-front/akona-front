@@ -48,20 +48,6 @@
   margin-bottom: 1rem;
 }
 
-
-@media screen and (max-width: 1024px) and (min-width: 769px) {
-  .about-section {
-    padding: 2rem 7%;
-  }
-
-  .about-text,
-  .about-video {
-    margin-top: 70px;
-    width: 100%; 
-  }
-}
-
-
 @media screen and (max-width: 768px) {
   .about-section {
     padding: 2rem 5%;
