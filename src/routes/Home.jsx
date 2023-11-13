@@ -34,33 +34,26 @@ export default function Home() {
           <a href="/sobre" className="btn1">
             Saiba Mais
           </a>
-
+          
           <a href="/servicos" className="btn2">
             Nossos Serviços
           </a>
         </div>
         <div>
-          <img src={Image} alt="" />
+          <img src={Image} alt="icon" />
         </div>
       </section>
 
       <section className="tips-section">
-        <h1 className="tips-title">
-          <span>Nossos</span> Beneficios
-        </h1>
+        <h1 className="tips-title"><span>Nossos</span> Beneficios</h1>
         <div className="tips-container">
           <div className="tips-cartinha">
             <img src={icon1} alt="icon 1" />
             <div className="tips-text">
               <h1>FÁCIL INSTALAÇÃO</h1>
-              <p>
-                Com a nossa solução de energia, a instalação é simples e
-                eficiente.
-              </p>
+              <p>Com a nossa solução de energia, a instalação é simples e eficiente.</p>
               <div className="tips-button">
-                <button>
-                  <a href="#">Saiba Mais</a>
-                </button>
+                <button><a href="#">Saiba Mais</a></button>
               </div>
             </div>
           </div>
@@ -69,14 +62,9 @@ export default function Home() {
             <img src={icon2} alt="icon 1" />
             <div className="tips-text">
               <h1>ECOLÓGICO</h1>
-              <p>
-                A energia solar é amiga do ambiente, gerando eletricidade sem
-                poluir.
-              </p>
+              <p>A energia solar é amiga ambiente, gerando eletricidade poluir.</p>
               <div className="tips-button">
-                <button>
-                  <a href="#">Saiba Mais</a>
-                </button>
+                <button><a href="#">Saiba Mais</a></button>
               </div>
             </div>
           </div>
@@ -85,13 +73,9 @@ export default function Home() {
             <img src={icon3} alt="icon 1" />
             <div className="tips-text">
               <h1>BAIXA MANUTENÇÃO</h1>
-              <p>
-                A energia solar tem manutenção econômica, poupando recursos.
-              </p>
+              <p>A energia solar tem manutenção econômica, poupando recursos.</p>
               <div className="tips-button">
-                <button>
-                  <a href="#">Saiba Mais</a>
-                </button>
+                <button><a href="#">Saiba Mais</a></button>
               </div>
             </div>
           </div>
@@ -100,32 +84,12 @@ export default function Home() {
             <img src={icon1} alt="icon 1" />
             <div className="tips-text">
               <h1>ECONÔMICO.</h1>
-              <p>
-                A energia solar é economicamente vantajosa, reduzindo custos.
-              </p>
+              <p>A energia solar é economicamente vantajosa, reduzindo custos.</p>
               <div className="tips-button">
-                <button>
-                  <a href="#">Saiba Mais</a>
-                </button>
+                <button><a href="#">Saiba Mais</a></button>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="sec-section">
-        <div className="sec-image">
-          <img src={Secimg} alt="" />
-        </div>
-        <div className="sec-text">
-          <h1>Porque a Akona?</h1>
-          <p>
-            somos especialistas no assunto, contando com uma equipe altamente
-            qualificada e experiente, pronta para personalizar soluções que
-            atendam às suas necessidades específicas. priorizando a
-            sustentabilidade, ajudando a reduzir seus custos energéticos e sua
-            pegada de carbono. garantindo resultados comprovados e mensuráveis.
-          </p>
         </div>
       </section>
     </>
