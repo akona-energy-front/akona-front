@@ -1,9 +1,6 @@
 import React from "react";
 import "../scss/Home.scss";
 import Image from "../assets/main.svg";
-import Secimg from "../assets/Secimg.svg";
-import Thirdimg from "../assets/Thirdimg.svg";
-import { Link } from "react-router-dom";
 import icon1 from "../assets/icon1.svg";
 import icon2 from "../assets/icon2.svg";
 import icon3 from "../assets/icon3.svg";

@@ -1,6 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Consultoria from "../assets/Consultoria.svg";
-import Akona from "../assets/Akona.mp4";
 import "../scss/Sobre.scss";
 
 export default function Sobre() {
@@ -44,12 +42,6 @@ export default function Sobre() {
             </div>
           </div>
           <div className="about-video">
-            <iframe
-              src={Akona}
-              className="video-frame"
-              width="800"
-              height="450"
-            ></iframe>
           </div>
         </div>
       </section>
